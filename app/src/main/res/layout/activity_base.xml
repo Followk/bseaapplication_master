@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <com.dk.basepack.bseaapplication.weight.CustomizedToolbar
+        android:id="@+id/customized_toolbar"
+        android:layout_width="match_parent"
+        android:background="@color/toolbar_background"
+        android:clickable="true"
+        android:layout_height="wrap_content">
+
+    </com.dk.basepack.bseaapplication.weight.CustomizedToolbar>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+    <LinearLayout
+        android:id="@+id/navigation_bar_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DragBubbleView">
+        <attr name="bubbleRadius" format="dimension" />
+        <attr name="bubbleColor" format="color" />
+        <attr name="text" format="string" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomizedToolbar">
+        <attr name="binCdMode" format="enum">
+            <enum name="text" value="0" />
+            <enum name="image" value="1" />
+            <enum name="text_image" value="2" />
+            <enum name="image_text" value="3" />
+            <enum name="customize" value="4" />
+        </attr>
+        <attr name="tb_text_left" format="string" />
+        <attr name="tb_text_tltle" format="string" />
+        <attr name="tb_text_right" format="string" />
+
+        <attr name="tb_text_color_left" format="reference|color" />
+        <attr name="tb_text_color_tltle" format="reference|color" />
+        <attr name="tb_text_color_right" format="reference|color" />
+
+        <attr format="reference" name="tb_icon_left"/>
+        <attr format="reference" name="tb_icon_right"/>
+
+    </declare-styleable>
+</resources>

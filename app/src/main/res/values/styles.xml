@@ -1,0 +1,40 @@
+<resources>
+
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+
+
+    </style>
+
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- colorPrimary  状态栏的颜色 -->
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+
+        <!--控件默认选中颜色，红色-->
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--toobar背景颜色-->
+        <item name="colorPrimary">#4285F4</item>
+
+    </style>
+
+
+    <style name="bottomnavigationbar_style">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/bottomnavigationbar_textcolor</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/bottomnavigationbar_background</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">2dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">6dp</item>
+    </style>
+
+</resources>
